@@ -5,7 +5,7 @@ plugins {
     // Kapt
     id("kotlin-kapt")
 
-    //Hilt
+    // Hilt
     id("com.google.dagger.hilt.android")
 
     // Save Args
@@ -71,8 +71,6 @@ dependencies {
 
     // Retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
-
-    // GsonConverter
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 
     // OkHttp
